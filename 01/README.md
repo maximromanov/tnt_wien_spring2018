@@ -19,7 +19,7 @@
 			3) open one of the articles; 4) use the browser plugin to import the record into Zotero:
 				- you will need to download the first PDF manually — accept conditions; after that the PDFs will be automatically downloaded into Zotero;
 				- for this to work, you need to be either on campus and connect to JSTOR via UniWien's network, or, to be logged in into the UniWien VPN (virtual private network)
-				- if there is something like "Access provided by Universität Wien" on the page (check the top of the page), you are good to go .
+				- if there is something like "Access provided by Universität Wien" on the page (check the top of the page), you are good to go.
 		* Now, collect a few references.
 * In Word/OpenOffice:
 	* Paste the text from `McCarty_Modeling.txt` into Word/OpenOffice
