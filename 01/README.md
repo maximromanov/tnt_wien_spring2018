@@ -18,4 +18,20 @@
 			2) search for something;
 			3) open one of the articles; 4) use the browser plugin to import the record into Zotero:
 				- you will need to download the first PDF manually — accept conditions; after that the PDFs will be automatically downloaded into Zotero;
-				- for this to work, you need to be either on campus and connect to JSTOR via UniWien's network, or, to be logged in into the UniWien VPN ()) 
+				- for this to work, you need to be either on campus and connect to JSTOR via UniWien's network, or, to be logged in into the UniWien VPN (virtual private network)
+				- if there is something like "Access provided by Universität Wien" on the page (check the top of the page), you are good to go .
+		* Now, collect a few references.
+* In Word/OpenOffice:
+	* Paste the text from `McCarty_Modeling.txt` into Word/OpenOffice
+	* Open `McCarty_Modeling.pdf` — we'll be using this one as a guide.
+	* Working with styles: adding and modifying styles
+	* Changing margins
+	* Inserting footnotes
+	* Inserting citations from Zotero
+	* Inserting Bibliography from Zotero
+	* Regenerating/Updating bibliography
+	* Changing styles  
+
+# Homework
+
+	* Finish conversion of the text into a proper Word document with citations and bibliography managed and updated via Zotero.
