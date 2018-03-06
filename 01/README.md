@@ -34,4 +34,5 @@
 
 # Homework
 
-	* Finish conversion of the text into a proper Word document with citations and bibliography managed and updated via Zotero.
+	* Finish conversion of the text into a proper Word document.
+	* Manage references and bibliography with Zotero.
