@@ -93,9 +93,8 @@ You will never need to type the prompt. That means that, if you are noting down 
 
 The prompt actually gives you a little bit of information.
 
-* On Mac, it has the name of the computer, followed by a :, followed by the directory where you are, followed by your username, with $ at the end.
-* On Windows, it has PS for 'PowerShell', followed by the name of the drive (C for most of you), followed by a :, followed by the full path to where you are, with > at the end.
-
+* On Mac, it has the name of the computer, followed by a `:`, followed by the directory where you are, followed by your username, with `$` at the end.
+* On Windows, it has `PS` for `PowerShell`, followed by the name of the drive (`C` for most of you), followed by a `:`, followed by the full path to where you are, with `>` at the end.
 
 When you type a command, nothing happens until you press the `Return/Enter` key. Some commands have output (more text that appears after you press `Return/Enter`) and others don’t. You cannot run another command until the prompt is given again.
 
@@ -107,16 +106,22 @@ Let’s first make sure we are in our home directory by typing `cd ~`. For most 
 cd ~
 ```
 
-Now let's have a look around. The command to show what is in any particular directory is called ls, which stands for list. Try running it.
+Now let’s have a look around. The command to show what is in any particular directory is called ls, which stands for list. Try running it.
 
-In [ ]:
+```
 ls
+```
+
 If you are on Windows, what you get will look more like this:
 
-PS C:\Users\Tara L Andrews> ls
+```
+PS C:\Users\user> ls
+```
 
+You should then see something like:
 
-    Verzeichnis: C:\Users\Tara L Andrews
+```
+Verzeichnis: C:\Users\user
 
 
 Mode                LastWriteTime     Length Name
@@ -137,6 +142,8 @@ d-r--        23.02.2016     20:40            Videos
 
 
 PS C:\Users\Tara L Andrews>
+```
+
 Now go into your documents folder and look around.
 
 In [ ]:
