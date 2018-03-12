@@ -163,55 +163,88 @@ If ever you get lost on the command line, `pwd` will always help you find your w
 
 ## File paths and path notations
 
-By now you will have noticed that I've mentioned the path a few times, and that it seems to have something to do with this thing that  pwd prints out. (And, most annoyingly, that it looks different on Mac and Windows.) The bit of text that you get from pwd is what is called path notation, and it is very important that you learn it if you want to do anything with your own digital data. Here are some rules:
+By now you will have noticed that I've mentioned the **path** a few times, and that it seems to have something to do with this thing that **pwd** prints out. (And, most annoyingly, that it looks different on `Mac` and `Windows`) The bit of text that you get from `pwd` is what is called path notation, and it is very important that you learn it if you want to do anything with your own digital data. Here are some rules:
 
-The / (or \\ on Windows) separates folder names. So Desktop/Video means "the thing called Video inside the Desktop folder".
-The / all by itself refers to the base of your hard drive (usually "Macintosh HD" or "C:\".)
-The ~ refers to your home folder.
-These things can be combined; ~/Documents means "the Documents folder in my home folder."
-The . means "the current working directory", i.e. what you would get if you ran the command pwd.
-The .. means "one directory back" - if pwd gives you /Users/tla, then .. means /Users.
-If the path does not start with a . or a / or a ~, then it will be assumed to start with a ./, that is, "start from the current working directory."
-Let's wander around a bit.
+* The `/` (or `\\` on Windows) separates folder names. So `Desktop/Video` means “the thing called Video inside the Desktop folder”.
+* The `/` all by itself refers to the base of your hard drive (usually `Macintosh HD` or `C:\`.)
+* The `~` refers to your home folder.
+* These things can be combined; `~/Documents` means “the Documents folder in my home folder.”
+* The `.` means “the current working directory”, i.e. what you would get if you ran the command `pwd`.
+* The `..` means “one directory back”—if `pwd` gives you `/Users/user`, then `..` means `/Users`.
+* If the path does not start with a `.` or a `/` or a `~`, then it will be assumed to start with a `./`, that is, “start from the current working directory.”
 
-In [ ]:
+Let’s wander around a bit. [Before that download the zip file with the materials of the course: [https://github.com/maximromanov/tnt_wien_spring2018/archive/master.zip](https://github.com/maximromanov/tnt_wien_spring2018/archive/master.zip)]. Unzip it somewhere and go to that folder in your `Terminal` or `Powershell`.
+
+```
 cd ~
 pwd
-In [ ]:
+```
+
+```
 cd ..
 pwd
-In [ ]:
+```
+
+```
 ls
-In [ ]:
+```
+
+```
 cd Desktop
 pwd
-In [ ]:
-cd tla/Desktop
-In [ ]:
+```
+
+```
+cd user/Desktop
+```
+
+```
 pwd
-In [ ]:
+```
+
+```
 cd Documents
-In [ ]:
+```
+
+```
 pwd
-In [ ]:
+```
+
+```
 cd ../Documents
 pwd
-In [ ]:
+```
+
+**NB:** you can use `TAB` to autocomplete the path: type `ls` to see what folders are in `Documents`, then go to any one of them by typing `cd` (space) and then the first two letters > after that use `TAB` and the name will be complete automatically. 
+
+```
 cd DH2015
 pwd
-In [ ]:
+```
+
+```
 cd ../../Desktop
 pwd
-In [ ]:
+```
+
+```
 ls testpage.pdf
-In [ ]:
+```
+
+```
 ls ESTS
-In [ ]:
+```
+
+```
 cd /Users
 pwd
-In [ ]:
+```
+
+```
 cd /Users/tla
 pwd
+```
+
 Command line arguments
 So far we have learned three commands: cd, ls, and pwd. These are useful for navigation, but we can run a lot more commands once we learn them, and have a need for them!
 
