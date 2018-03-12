@@ -33,7 +33,7 @@ One thing that computer OSes like to hide from you is the fact that you have a h
 
 * On **Mac**, select `Go` > `Home` in the menu.
 
-![../img/mac_finder.png]
+![](../img/mac_finder.png)
 
 * 
 * On **Windows**, click on `Local Drive (C:)`, then click on `Users`, then click on your login name.
