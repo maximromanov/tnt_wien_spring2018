@@ -85,7 +85,9 @@ MacBook-Pro:~ user$
 
 or
 
-`PS C:\Users\user>`
+```
+PS C:\Users\user>
+```
 
 You will never need to type the prompt. That means that, if you are noting down what we do in class for future reference, you should not copy this part!
 
