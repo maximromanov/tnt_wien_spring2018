@@ -64,15 +64,17 @@ This is your real path. The `C:\` is how Windows refers to the root of your file
 Now that you have a hint of what is going on behind the scenes on your computer, let’s dive into the command line. Here is how you get there:
 
 * On Mac, look for a program called `Terminal.app`
-* On Windows, look for a program called `Powershell`
-* 
-In [ ]:
-display < img/mac_terminal.png
-In [ ]:
-display < img/windows_powershell.png
-By default, these shells open in your home directory. On Windows this is easy to see, but on Mac it is less clear—that is, until you know that this ~ thing is an alias for your home directory.
 
-Components of the command line
+![](./img/mac_terminal.png) 
+
+* On Windows, look for a program called `Powershell`
+
+![](./img/windows_powershell.png) 
+
+By default, these shells open in your home directory. On Windows this is easy to see, but on Mac it is less clear—that is, until you know that this `~` thing is an alias for your home directory.
+
+## Components of the command line
+
 The command line consists of a prompt where you type your commands, the commands and arguments that you type, and the output that results from those commands.
 
 The prompt is the thing that looks like
