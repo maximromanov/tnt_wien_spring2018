@@ -146,18 +146,23 @@ PS C:\Users\Tara L Andrews>
 
 Now go into your documents folder and look around.
 
-In [ ]:
+```
 cd Documents
 ls
+```
+
 How does this compare to what you see in the Finder / Explorer window, if you click on the Documents folder?
 
-Another important command, which tells you where you are at any given time, is pwd. This means print working directory. Try it now and see what you get.
+Another important command, which tells you where you are at any given time, is `pwd`. This means print working directory. Try it now and see what you get.
 
-In [ ]:
+```
 pwd
-If ever you get lost on the command line, pwd will always help you find your way.
+```
 
-File paths and path notations
+If ever you get lost on the command line, `pwd` will always help you find your way.
+
+## File paths and path notations
+
 By now you will have noticed that I've mentioned the path a few times, and that it seems to have something to do with this thing that  pwd prints out. (And, most annoyingly, that it looks different on Mac and Windows.) The bit of text that you get from pwd is what is called path notation, and it is very important that you learn it if you want to do anything with your own digital data. Here are some rules:
 
 The / (or \\ on Windows) separates folder names. So Desktop/Video means "the thing called Video inside the Desktop folder".
