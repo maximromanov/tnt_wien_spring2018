@@ -77,13 +77,15 @@ By default, these shells open in your home directory. On Windows this is easy to
 
 The command line consists of a prompt where you type your commands, the commands and arguments that you type, and the output that results from those commands.
 
-The prompt is the thing that looks like
+The prompt is the thing that looks like (where `user` is your username):
 
-MacBook-Pro:~ tla$
+```
+MacBook-Pro:~ user$
+```
 
 or
 
-PS C:\Users\Tara L Andrews>
+`PS C:\Users\user>`
 
 You will never need to type the prompt. That means that, if you are noting down what we do in class for future reference, you should not copy this part!
 
