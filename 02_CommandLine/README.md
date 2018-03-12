@@ -75,9 +75,9 @@ By default, these shells open in your home directory. On Windows this is easy to
 
 ## Components of the command line
 
-The command line consists of a prompt where you type your commands, the commands and arguments that you type, and the output that results from those commands.
+The command line consists of a *prompt* where you type your commands, the *commands* and *arguments* that you type, and the *output* that results from those commands.
 
-The prompt is the thing that looks like (where `user` is your username):
+The *prompt* is the thing that looks like (where `user` is your username):
 
 ```
 MacBook-Pro:~ user$
@@ -93,16 +93,20 @@ You will never need to type the prompt. That means that, if you are noting down 
 
 The prompt actually gives you a little bit of information.
 
-On Mac, it has the name of the computer, followed by a :, followed by the directory where you are, followed by your username, with $ at the end.
-On Windows, it has PS for 'PowerShell', followed by the name of the drive (C for most of you), followed by a :, followed by the full path to where you are, with > at the end.
-When you type a command, nothing happens until you press the Return key. Some commands have output (more text that appears after you press Return) and others don't. You cannot run another command until the prompt is given again.
+* On Mac, it has the name of the computer, followed by a :, followed by the directory where you are, followed by your username, with $ at the end.
+* On Windows, it has PS for 'PowerShell', followed by the name of the drive (C for most of you), followed by a :, followed by the full path to where you are, with > at the end.
 
-NOTE: From this point on in this notebook, you will be running the commands that are run here!
 
-Let's first make sure we are in our home directory by typing cd ~. For most of you this should change nothing, but now you know your first shell command. The 'cd' stands for 'change directory', and what follows is the directory you want to go to.
+When you type a command, nothing happens until you press the `Return/Enter` key. Some commands have output (more text that appears after you press `Return/Enter`) and others don’t. You cannot run another command until the prompt is given again.
 
-In [ ]:
+**NOTE**: From this point on, you will be running the commands that are run here!
+
+Let’s first make sure we are in our home directory by typing `cd ~`. For most of you this should change nothing, but now you know your first shell command. The `cd` stands for `change directory`, and what follows is the directory you want to go to.
+
+```
 cd ~
+```
+
 Now let's have a look around. The command to show what is in any particular directory is called ls, which stands for list. Try running it.
 
 In [ ]:
