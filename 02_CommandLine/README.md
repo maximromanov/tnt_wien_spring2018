@@ -35,17 +35,25 @@ One thing that computer OSes like to hide from you is the fact that you have a h
 
 ![](./img/mac_finder.png)
 
-* 
 * On **Windows**, click on `Local Drive (C:)`, then click on `Users`, then click on your login name.
+
+![](./img/windows_explorer.png)
 
 You’ll see that your home directory has several folders in it already, that were created automatically for you when you first made a user account.
 
 Now how can you tell where you are, with respect to the root of your drive?
 
-On Mac, select `View` > `Show Path Bar` in the menu.
-On Windows, look [In the Path]
+* On Mac, select `View` > `Show Path Bar` in the menu.
 
-The Finder / Explorer will also show you where in your computer’s filesystem you are. This is called the path—it shows you the path you have to take from the root of your filesystem to the folder you are in. [show where exactly]
+![](./img/mac_path.png)
+
+On Windows, look:
+
+![](./img/windows_path.png) 
+
+The Finder / Explorer will also show you where in your computer’s filesystem you are. This is called the path—it shows you the path you have to take from the root of your filesystem to the folder you are in.
+
+
 
 Now if you are on Windows, click on that bar and you'll see something surprising.
 
