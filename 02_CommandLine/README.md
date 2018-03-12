@@ -31,31 +31,33 @@ The Finder / Explorer window opens in some folder, which might be different depe
 
 One thing that computer OSes like to hide from you is the fact that you have a home directory, where all your personal files and folders should live. This makes it easier for multiple users to use a single computer. You can find your home directory like this:
 
-* On Mac, select `Go` > `Home` in the menu.
-On Windows, click on 'Local Drive (C:)', then click on 'Users', then click on your login name.
-You'll see that your home directory has several folders in it already, that were created automatically for you when you first made a user account.
+* On **Mac**, select `Go` > `Home` in the menu.
+
+![../img/mac_finder.png]
+
+* 
+* On **Windows**, click on `Local Drive (C:)`, then click on `Users`, then click on your login name.
+
+You’ll see that your home directory has several folders in it already, that were created automatically for you when you first made a user account.
 
 Now how can you tell where you are, with respect to the root of your drive?
 
-On Mac, select View -> Show Path Bar in the menu.
-On Windows, look
-The Finder / Explorer will also show you where in your computer's filesystem you are. This is called the path - it shows you the path you have to take from the root of your filesystem to the folder you are in.
+On Mac, select `View` > `Show Path Bar` in the menu.
+On Windows, look [In the Path]
 
-In [ ]:
-display < img/mac_path.png
-In [ ]:
-display < img/windows_path.png
+The Finder / Explorer will also show you where in your computer’s filesystem you are. This is called the path—it shows you the path you have to take from the root of your filesystem to the folder you are in. [show where exactly]
+
 Now if you are on Windows, click on that bar and you'll see something surprising.
 
-In [ ]:
-display < img/windows_realpath.png
-This is your real path. The C:\\ is how Windows refers to the root of your filesystem. Also note that, even if your OS is not in English, the path may very well be!
+This is your real path. The `C:\` is how Windows refers to the root of your filesystem. Also note that, even if your OS is not in English, the path may very well be!
 
-Getting started with the command line
-Now that you have a hint of what is going on behind the scenes on your computer, let's dive into the command line. Here is how you get there:
+## Getting started with the command line
 
-On Mac, look for a program called Terminal.app
-On Windows, look for a program called Powershell
+Now that you have a hint of what is going on behind the scenes on your computer, let’s dive into the command line. Here is how you get there:
+
+* On Mac, look for a program called `Terminal.app`
+* On Windows, look for a program called `Powershell`
+* 
 In [ ]:
 display < img/mac_terminal.png
 In [ ]:
