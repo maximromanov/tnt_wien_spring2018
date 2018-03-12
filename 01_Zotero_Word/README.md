@@ -30,12 +30,13 @@
 	* Inserting citations from Zotero
 	* Inserting Bibliography from Zotero
 	* Regenerating/Updating bibliography
-	* Changing styles  
+	* Changing styles
+	* Adding page numbers 
 
 # Homework
 
 * Finish conversion of the text into a proper Word document.
 * Manage references and bibliography with Zotero.
-* Email finished Word file to the instructor
+* Email finished Word file to the instructor (*preferable*: upload to Moodle).
 * Generate a separate bibliography file with Zotero ( [1] select all references that you want to include; [2] right-click > "Create Bibliography from Items" > Choose Citation Style, Output Mode, Output Method (Save as RTF)). This will generate a separate file with your bibliography.
-* Email the bibliography file to the instructor.
+* Email the bibliography file to the instructor (*preferable*: upload to Moodle).

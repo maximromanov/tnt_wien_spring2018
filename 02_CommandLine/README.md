@@ -11,32 +11,27 @@ The knowledge of “command line” opens a whole new world of opportunities, as
 * [*optional*] `python` (install from: https://www.python.org/)
 * [*optional*] `r` (install from: https://www.r-project.org/)
 
-## Class:
+## Class: Files, programs, and the command line
 
-Learning basic concepts, commands, navigation, copying, moving, etc.
-
-Files, programs, and the command line
 This is a primer to get you started on a few concepts:
 
-What a filesystem is
-How to run a program from the command line
-What it means to run a program
-How the computer knows what program to run
-How to refer to a file from the command line
-The filesystem
-All the files and programs on your computer are organized into folders; all these folders are in some other folders all the way down to your hard drive, which we call the root of your filesystem. Every hard drive, USB drive, DVD, and CD-ROM has its own filesystem.
+* What a *filesystem* is
+* How to run a program from the command line
+* What it means to run a program
+* How the computer knows what program to run
+* How to refer to a file from the command line
+
+### The filesystem
+
+All the files and programs on your computer are organized into folders; all these folders are in some other folders all the way down to your hard drive, which we call the **root** of your filesystem. Every hard drive, USB drive, DVD, and CD-ROM has its own filesystem.
 
 You normally look at the contents of your filesystem via the Finder (on Mac) or the Explorer (on Windows). Open a window there now.
 
-In [ ]:
-display < img/mac_finder.png
-In [ ]:
-display < img/windows_explorer.png
-The Finder / Explorer window opens in some folder, which might be different depending on what computer operating system you're using. But you'll usually have a navigation bar to the left, that will let you go to different places. You see folders, also known as directories, and you might see files too.
+The Finder / Explorer window opens in some folder, which might be different depending on what computer operating system you’re using. But you’ll usually have a navigation bar to the left, that will let you go to different places. You see *folders*, also known as *directories*, and you might see *files* too.
 
 One thing that computer OSes like to hide from you is the fact that you have a home directory, where all your personal files and folders should live. This makes it easier for multiple users to use a single computer. You can find your home directory like this:
 
-On Mac, select Go -> Home in the menu.
+* On Mac, select `Go` > `Home` in the menu.
 On Windows, click on 'Local Drive (C:)', then click on 'Users', then click on your login name.
 You'll see that your home directory has several folders in it already, that were created automatically for you when you first made a user account.
 
