@@ -53,9 +53,9 @@ On Windows, look:
 
 The Finder / Explorer will also show you where in your computer’s filesystem you are. This is called the path—it shows you the path you have to take from the root of your filesystem to the folder you are in.
 
+Now if you are on Windows, click on that bar and you’ll see something surprising.
 
-
-Now if you are on Windows, click on that bar and you'll see something surprising.
+![](./img/windows_realpath.png) 
 
 This is your real path. The `C:\` is how Windows refers to the root of your filesystem. Also note that, even if your OS is not in English, the path may very well be!
 
