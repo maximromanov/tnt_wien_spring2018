@@ -292,6 +292,10 @@ ls
 Tada! The `McCarty_Modeling.pdf` should now be back where it was.
 
 
+## Learning more
+
+If you want to learn about new commands, try to `Google` that. Googling things like this is a very big part of being a DH scholar! You will most likely find your answers on [https://stackoverflow.com/](https://stackoverflow.com/), which will become your most frequented resource, if you embark on the DH path. 
+
 # Homework
 
 * Work through a reference material on command line which is relevant to your operating system.
