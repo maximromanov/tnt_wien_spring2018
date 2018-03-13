@@ -1,42 +1,192 @@
-# 06.03 — [01] Citation Management and Academic Writing I
+# Dr. Seuss – Green Eggs And Ham Lyrics
 
-* Download and install Zotero
-* You may need to manually activate Word/OpenOffice plugin for Zotero
-* You will need Chrome of Firefox for collecting references from web resources
+I am Daniel
 
-* In Zotero:
-	* Adding references:
-		* Using ISBN: **978-1-118-68064-3** (Button: Add Item(s) by Identifier)
-		* Using a browser plugin (from Amazon): [try this link](https://www.amazon.com/Companion-Humanities-Blackwell-Companions-Literature/dp/1118680642/ref=sr_1_1?ie=UTF8&qid=1494007367&sr=8-1&keywords=A+Companion+to+Digital+Humanities)
-		* Using export functions from [*University of Vienna* Library Catalog](https://usearch.univie.ac.at/primo_library/libweb/action/search.do?vid=UWI&afterTimeout=A19EEEF38BD9EA6A9822996C123F1623&dscnt=1):
-			1) Search for "A New Companion to Digital Humanities";
-			2) open any of the results;
-			3) From "Senden am", choose "RIS Export (EndNote, Citavi)";
-			4) Double-click on the downloaded file (it should offer to open it in Zotero).
-		* Exporting from JSTOR (and automatic PDF download):
-			1) go to [http://www.jstor.org/](http://www.jstor.org/);
-			2) search for something;
-			3) open one of the articles; 4) use the browser plugin to import the record into Zotero:
-				- you will need to download the first PDF manually — accept conditions; after that the PDFs will be automatically downloaded into Zotero;
-				- for this to work, you need to be either on campus and connect to JSTOR via UniWien's network, or, to be logged in into the UniWien VPN (virtual private network)
-				- if there is something like "Access provided by Universität Wien" on the page (check the top of the page), you are good to go.
-		* Now, collect a few references.
-* In Word/OpenOffice:
-	* Paste the text from `McCarty_Modeling.txt` into Word/OpenOffice
-	* Open `McCarty_Modeling.pdf` — we'll be using this one as a guide.
-	* Working with styles: adding and modifying styles
-	* Changing margins
-	* Inserting footnotes
-	* Inserting citations from Zotero
-	* Inserting Bibliography from Zotero
-	* Regenerating/Updating bibliography
-	* Changing styles
-	* Adding page numbers 
+I am Sam
+Sam I am
 
-# Homework
+That Sam-I-am
+That Sam-I-am!
+I do not like
+That Sam-I-am
 
-* Finish conversion of the text into a proper Word document.
-* Manage references and bibliography with Zotero.
-* Email finished Word file to the instructor (*preferable*: upload to Moodle).
-* Generate a separate bibliography file with Zotero ( [1] select all references that you want to include; [2] right-click > "Create Bibliography from Items" > Choose Citation Style, Output Mode, Output Method (Save as RTF)). This will generate a separate file with your bibliography.
-* Email the bibliography file to the instructor (*preferable*: upload to Moodle).
+Do you like
+Green eggs and ham
+
+I do not like them,
+Sam-I-am.
+I do not like
+Green eggs and ham.
+
+Would you like them
+Here or there?
+
+I would not like them
+Here or there.
+I would not like them
+Anywhere.
+I do not like
+Green eggs and ham.
+I do not like them,
+Sam-I-am
+
+Would you like them
+In a house?
+Would you like them
+With a mouse?
+
+I do not like them
+In a house.
+I do not like them
+With a mouse.
+I do not like them
+Here or there.
+I do not like them
+Anywhere.
+I do not like green eggs and ham.
+I do not like them, Sam-I-am.
+
+Would you eat them
+In a box?
+Would you eat them
+With a fox?
+
+Not in a box.
+Not with a fox.
+Not in a house.
+Not with a mouse.
+I would not eat them here or there.
+I would not eat them anywhere.
+I would not eat green eggs and ham.
+I do not like them, Sam-I-am.
+
+Would you? Could you?
+In a car?
+Eat them! Eat them!
+Here they are.
+
+I woould not,
+Could not,
+In a car
+
+You may like them.
+You will see.
+You may like them
+In a tree?
+
+I would not, could not in a tree.
+Not in a car! You let me be.
+I do not like them in a box.
+I do not like them with a fox
+I do not like them in a house
+I do mot like them with a mouse
+I do not like them here or there.
+I do not like them anywhere.
+I do not like green eggs and ham.
+I do not like them, Sam-I-am.
+
+A train! A train!
+A train! A train!
+Could you, would you
+On a train?
+
+Not on a train! Not in a tree!
+Not in a car! Sam! Let me be!
+I would not, could not, in a box.
+I could not, would not, with a fox.
+I will not eat them with a mouse
+I will not eat them in a house.
+I will not eat them here or there.
+I will not eat them anywhere.
+I do not like them, Sam-I-am.
+
+Say!
+In the dark?
+Here in the dark!
+Would you, could you, in the dark?
+
+I would not, could not,
+In the dark.
+
+Would you, could you,
+In the rain?
+
+I would not, could not, in the rain.
+Not in the dark. Not on a train,
+Not in a car, Not in a tree.
+I do not like them, Sam, you see.
+Not in a house. Not in a box.
+Not with a mouse. Not with a fox.
+I will not eat them here or there.
+I do not like them anywhere!
+
+You do not like
+Green eggs and ham?
+
+I do not
+Like them,
+Sam-I-am.
+
+Could you, would you,
+With a goat?
+
+I would not,
+Could not.
+With a goat!
+
+Would you, could you,
+On a boat?
+
+I could not, would not, on a boat.
+I will not, will not, with a goat.
+I will not eat them in the rain.
+I will not eat them on a train.
+Not in the dark! Not in a tree!
+Not in a car! You let me be!
+I do not like them in a box.
+I do not like them with a fox.
+I will not eat them in a house.
+I do not like them with a mouse.
+I do not like them here or there.
+I do not like them anywhere!
+
+I do not like
+Green egss
+And ham!
+
+I do not like them,
+Sam-I-am.
+
+You do not like them.
+So you say.
+Try them! Try them!
+And you may.
+Try them and you may I say.
+
+Sam!
+If you will let me be,
+I will try them.
+You will see.
+
+Say!
+I like green eggs and ham!
+I do! I like them, Sam-I-am!
+And I would eat them in a boat!
+And I would eat them with a goat...
+And I will eat them in the rain.
+And in the dark. And on a train.
+And in a car. And in a tree.
+They are so goodm so goodm you see!
+
+So I will eat them in a box.
+And I will eat them with a fox.
+And I will eat them in a house.
+And I will eat them with a mouse.
+And I will eat them here and there.
+Say! I will eat them anhywhere!
+
+I do so like
+Green eggs and ham!
+Thank you!
+Thank you,
+Sam-I-am
