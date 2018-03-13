@@ -1,4 +1,4 @@
-# Dr. Seuss – Green Eggs And Ham Lyrics
+# Dr. Seuss – Green Eggs and Ham
 
 I am Daniel
 
