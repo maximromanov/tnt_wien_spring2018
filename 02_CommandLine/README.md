@@ -220,59 +220,77 @@ cd ..
 
 So far we have learned three commands: `cd`, `ls`, and `pwd`. These are useful for navigation, but we can run a lot more commands once we learn them, and have a need for them!
 
-What are we doing, exactly? 
+What are we doing, exactly?
 
 * First word is the `command`
 * All other words are the `arguments`
 * Words **must be** separated by `spaces`
 
-cd is a command that expects an argument: the name of the directory you want to go to. But what if the name has a space in it?
+`cd` is a command that expects an argument: the name of the directory you want to go to. But what if the name has a space in it?
+
+**NB:** You may think of most commands as sentences with subject, predicate, and object (or multiple objects).
 
 ```
-cd ./01_Zotero_Word/Dummy Example
+cd ./01_Zotero_Word/Green Eggs and Ham
 ```
 
 What happened there?
 
-Well, we have a folder called **2015 HS** in our example, and I tried to go there. But since the command line works with arguments, and since arguments are separated by space, it thought I was saying “Change to the `./01_Zotero_Word/Dummy` folder, and then `Example`, whatever that means.” And it gave us an error, because we don’t have a folder called `Dummy` in our example.
+Well, we have a folder called **Green Eggs and Ham** in our example, and we tried to go there. But since the command line works with arguments, and since arguments are separated by space, the machine interpreted this as if we were saying “Change to the `./01_Zotero_Word/Green` folder, and then `Eggs`, `and`, `Ham`, whatever that means.” And it gave us an error, because we don’t have a folder called `Green` in our example.
 
-You can get around this. How you get around it depends on whether you're on Windows or not. One way to get around it that should work both places is like this:
+You can get around this. How you get around it depends on whether you’re on Windows or not. One way to get around it that should work both places is like this:
 
-In [ ]:
-cd ~/Documents/"2017 SS"
+On Windows:
+```
+cd './01_Zotero_Word/Green Eggs and Ham'
+```
+
+On Mac (you need to *escape* spaces by adding a `backslash` in front of them):
+```
+cd ./01_Zotero_Word/Green\ Eggs\ and\ Ham/
+```
+
+**NB:** The easiest solution is to use `TAB` for autocomplete!
+
+## More stuff
+
+With command line you can do everything that you became accustomed to be doing in a graphical interface of your favorite file manager. For example, you can `copy`, `move`, and `delete` files and folders
+
+You can use:
+
+* `mv` to move files
+* `rm` (on Windows also: `del`) to delete files
+*  `cp` to copy files
+
+In all cases you need to state which files you want to `mv`, `rm`, or `cp`. In some cases you also need to point where you want to `mv` or `cp` your files.
+
+**NB:** Syntax on `Mac` and `Windows` will vary slightly, but if you keep using `[TAB]` for autocompletion, there will be no different in the process of typing the command, so let’s try to do it this way. 
+
+To start, let’s go to the root directory of our course materials (`/tnt_wien_spring2018/`). From there, let’s do the following:
+
+```
+cd 01[TAB]
 ls
-In [ ]:
-ls Andrews1.pdf mainz ests_2017.docx thisdoesnotexist
-Paths and program execution
-As well as a shell command like what we have been using, you can also give the name of a program as the first word on a command line. Now that you have Python installed we can try that.
+cp Mc[TAB] Green[TAB]
+cd Green[TAB]
+ls
+```
 
-In [ ]:
-python -V
-Here we commanded the program python to run, and gave it a single argument, which happens to mean "Print out your version number and then quit". Which is exactly what happened.
+**NB:** when you hit `[TAB]` after `Mc` you are not going to get the full autocomplete, because there are two files that start with `McCarty_Modeling`—one is `pdf` and another—`txt`. You will need to type one more letter `p` and then hit `[TAB]` again to get the file name that you need. Thus, the command can be transcribed as: `M[TAB]p[TAB]`
 
-So can you run any program, just like that? Not quite. Let's try to run one of our files.
+Now let’s `rm` (*delete*) the `McCarty_Modeling.pdf` from this folder, then go to the folder where we copied it, and then `mv` (*move*) it back to where it was in the first place.
 
-In [ ]:
-ests_2017.docx
-If you're on Windows, the error will look something like this:
+```
+rm M[TAB]p[TAB]
+ls
+cd G[TAB]
+mv Mc[TAB] ../
+cd ..
+ls
+```
 
-exist : Die Benennung "exist" wurde nicht als Name eines Cmdlet, einer Funktion,
-ausführbaren Programms erkannt. Überprüfen Sie die Schreibweise des Namens, oder
-enthalten), und wiederholen Sie den Vorgang.
-In Zeile:1 Zeichen:1
-+ exist
-+ ~~~~~
-    + CategoryInfo          : ObjectNotFound: (exist:String) [], CommandNotFound
-    + FullyQualifiedErrorId : CommandNotFoundException
-In both cases, the key here is where it says the file was not found. So how does the computer know where to look? The answer lies in something, confusingly enough, also called the PATH.
+Tada! The `McCarty_Modeling.pdf` should now be back where it was.
 
-You can see your PATH as follows:
-
-On Mac, type echo $PATH
-On Windows, type echo $Env:Path
-In [ ]:
-echo $PATH
-What you see is a list of directory paths. When you type a command, the computer looks in each of these directories to see if it can find a program with the name you have given as the first word of that command. This means that sometimes, when you install software, you have to change the PATH. We'll talk about how to do that, when necessary, as term goes on. 
 
 # Homework
 
