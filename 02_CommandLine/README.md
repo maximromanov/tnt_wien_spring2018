@@ -173,15 +173,15 @@ By now you will have noticed that I've mentioned the **path** a few times, and t
 * The `..` means “one directory back”—if `pwd` gives you `/Users/user`, then `..` means `/Users`.
 * If the path does not start with a `.` or a `/` or a `~`, then it will be assumed to start with a `./`, that is, “start from the current working directory.”
 
-Let’s wander around a bit. [Before that download the zip file with the materials of the course: [https://github.com/maximromanov/tnt_wien_spring2018/archive/master.zip](https://github.com/maximromanov/tnt_wien_spring2018/archive/master.zip)]. Unzip it somewhere and go to that folder in your `Terminal` or `Powershell`.
+Let’s wander around a bit. Before that download the zip file with the materials of the course: [https://github.com/maximromanov/tnt_wien_spring2018/archive/master.zip](https://github.com/maximromanov/tnt_wien_spring2018/archive/master.zip). Unzip it somewhere and go to that folder in your `Terminal` or `Powershell`.
 
 ```
-cd ~
+cd /path/to/the/folder/tnt_wien_spring2018
 pwd
 ```
 
 ```
-cd ..
+cd ./cd 02_CommandLine/
 pwd
 ```
 
@@ -189,77 +189,52 @@ pwd
 ls
 ```
 
+Try the following if you are on Mac
 ```
-cd Desktop
-pwd
-```
-
-```
-cd user/Desktop
+ls -lh
 ```
 
 ```
-pwd
-```
-
-```
-cd Documents
-```
-
-```
-pwd
-```
-
-```
-cd ../Documents
+cd ..
 pwd
 ```
 
 **NB:** you can use `TAB` to autocomplete the path: type `ls` to see what folders are in `Documents`, then go to any one of them by typing `cd` (space) and then the first two letters > after that use `TAB` and the name will be complete automatically. 
 
 ```
-cd DH2015
+cd 05[TAB]
 pwd
 ```
 
 ```
-cd ../../Desktop
+cd ../01[TAB]
 pwd
 ```
 
 ```
-ls testpage.pdf
+ls McCarty_Modeling.pdf
+cd ..
 ```
 
-```
-ls ESTS
-```
+## Command line arguments
 
-```
-cd /Users
-pwd
-```
+So far we have learned three commands: `cd`, `ls`, and `pwd`. These are useful for navigation, but we can run a lot more commands once we learn them, and have a need for them!
 
-```
-cd /Users/tla
-pwd
-```
+What are we doing, exactly? 
 
-Command line arguments
-So far we have learned three commands: cd, ls, and pwd. These are useful for navigation, but we can run a lot more commands once we learn them, and have a need for them!
+* First word is the `command`
+* All other words are the `arguments`
+* Words **must be** separated by `spaces`
 
-What are we doing, exactly?
-
-First word is the command
-All other words are the arguments
-Words are separated by spaces
 cd is a command that expects an argument: the name of the directory you want to go to. But what if the name has a space in it?
 
-In [ ]:
-cd ~/Documents/2017 SS
-What happened there??
+```
+cd ./01_Zotero_Word/Dummy Example
+```
 
-Well, I have a folder called 2015 HS in my Documents folder, and I tried to go there. But since the command line works with arguments, and since arguments are separated by space, it thought I was saying "Change to the Documents/2015 folder, and then HS, whatever that means." And it gave me an error, because I don't have a folder called 2015 in my Documents folder.
+What happened there?
+
+Well, we have a folder called **2015 HS** in our example, and I tried to go there. But since the command line works with arguments, and since arguments are separated by space, it thought I was saying “Change to the `./01_Zotero_Word/Dummy` folder, and then `Example`, whatever that means.” And it gave us an error, because we don’t have a folder called `Dummy` in our example.
 
 You can get around this. How you get around it depends on whether you're on Windows or not. One way to get around it that should work both places is like this:
 
