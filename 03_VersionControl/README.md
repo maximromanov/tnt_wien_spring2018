@@ -77,10 +77,14 @@ Learning about version control systems and how they help in the development of  
 
 ## Homework:
 
-* Build your website on github from the template at: 
-Use this theme: https://github.com/daattali/beautiful-jekyll
-The page also has additional instructions
-Complete Codecademy’s Learn Git (https://www.codecademy.com/learn/learn-git);
-if you’d like more practice, there is another one: https://try.github.io 
-Github: publish your confirmation screenshot as a post on your new site; (email the link to the instructor)
+* Build your website on github from the template at [https://github.com/univie-tnt-2018-summer](https://github.com/univie-tnt-2018-summer/univie-tnt-2018-summer.github.io)
+	* `fork`
+	* create a repository under your account with the name: `username.github.io`, where username is your github username; the repository with such names are automatically treated by github as a website.
+	* copy all files from the forked repository into your new one (`clone` > `copy/paste`)
+	* README.md has all the instructions on how to make modifications to your site; play with those!
+	* you can pick a different theme for you site (just google `jekyll themes` for options)
+* Complete Codecademy’s *Learn Git* [https://www.codecademy.com/learn/learn-git](https://www.codecademy.com/learn/learn-git);
+	- if you’d like more practice, there is another one: [https://try.github.io](https://try.github.io) 
+* Publish your confirmation screenshot as a post on your new site;
+* Also, add a page with this confirmation to the shared (forked site) and send me `pull request`
 
