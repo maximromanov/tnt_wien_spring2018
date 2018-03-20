@@ -4,7 +4,7 @@
 
 # General workflow:
 
-* [wwwgithub.com](https://github.com/) :: make an account
+* [github.com](https://github.com/) :: make an account
 * download git software (Windows; Macs usually have it already)
 * `fork` a repository
 * `clone`
@@ -37,10 +37,10 @@
 * `git commit -m "message"
 	- saves all files in their current state into the repository, and created a milestone
 * `git push origin master`
-	- uploads changes to [wwwgithub.com](https://github.com/)
+	- uploads changes to [github.com](https://github.com/)
 	- **NB:** sometimes you may get an error, which in most cases means that you need to `pull` first
 * `git pull origin master`
-	- downloads changes from [wwwgithub.com](https://github.com/)
+	- downloads changes from [github.com](https://github.com/)
 * `git log`
 	- shows the history of `commit`s; here you can choose where you want to roll back, in case of troubles
 
