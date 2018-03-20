@@ -17,14 +17,14 @@
 
 # Some command line commands
 
-pwd
-	shows you where you are on a drive (gives you path)
-ls / dir [on Windows]
-	shows everything in the your current location/folder
-cd <name of the folder>
-	takes you to that folder
-cd .. 
-	takes you one level up in the tree structure of your computer
+* `pwd`
+	- shows you where you are on a drive (gives you path)
+* `ls` / `dir` [on Windows]
+	- shows everything in the your current location/folder
+* `cd <name of the folder>`
+	- takes you to that folder
+* `cd ..` 
+	- takes you one level up in the tree structure of your computer
 
 # GitHub: Main Commands
 
