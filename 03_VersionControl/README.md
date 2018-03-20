@@ -46,32 +46,38 @@
 
 # From the syllabus
 
-Goals:
+## Goals:
+
 Learning about version control systems and how they help in the development of  DH project, which are often a lengthy and complex, and require organic collaboration. 
 
 
-Software:
-create github account @ https://github.com/
-Github
-[Win] install from here: https://git-scm.com/downloads 
-[Mac] github is already on your machine
-[Win] also install the desktop interface https://desktop.github.com/)
-Jekyll, a simple, blog-aware, static site generator
-see Reference Materials below on how to install
+## Software:
+
+* create github account @ https://github.com/
+
+* Github
+	- [Win] install from here: https://git-scm.com/downloads 
+	- [Mac] github is already on your machine
+	- [Win] also install the desktop interface https://desktop.github.com/)
+	- Jekyll, a simple, blog-aware, static site generator
+	- see Reference Materials below on how to install
 
 
-Class:
-Basic functionality
-Starting a website; basics of markdown
+## Class:
+
+* Basic `git` functionality
+* Starting a website; basics of `markdown`
 
 
-Reference Materials:
-Simpkin, Sarah. 2015. “Getting Started with Markdown.” Programming Historian, November. https://programminghistorian.org/lessons/getting-started-with-markdown.
-Visconti, Amanda. 2016. “Building a Static Website with Jekyll and GitHub Pages.” Programming Historian, April. https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages.
+## Reference Materials:
+
+* Simpkin, Sarah. 2015. “Getting Started with Markdown.” Programming Historian, November. [https://programminghistorian.org/](https://programminghistorian.org/lessons/getting-started-with-markdown).
+* Visconti, Amanda. 2016. “Building a Static Website with Jekyll and GitHub Pages.” Programming Historian, April. [https://programminghistorian.org/](https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages).
 
 
-Homework:
-Build your website on github
+## Homework:
+
+* Build your website on github from the template at: 
 Use this theme: https://github.com/daattali/beautiful-jekyll
 The page also has additional instructions
 Complete Codecademy’s Learn Git (https://www.codecademy.com/learn/learn-git);
