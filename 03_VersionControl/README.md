@@ -28,20 +28,21 @@
 
 # GitHub: Main Commands
 
-`git clone <link>`
-clones/downloads a repository on you machine
-git status
-shows the current status of the repository (new, changed, deleted)
-git add .
-adds all new files and modified files to the repository
-git commit -m "message"
-saves all files in their current state into the repository, and created a milestone
-git push origin master
-uploads changes to github (sometimes you may get an error, which in most cases means that you need to pull first)
-git pull origin master
-downloads changes from github
-git log
-
+* `git clone <link>`
+	- clones/downloads a repository on you machine
+* `git status`
+	- shows the current status of the repository (new, changed, deleted)
+* `git add .`
+	- adds all new files and modified files to the repository
+* `git commit -m "message"
+	- saves all files in their current state into the repository, and created a milestone
+* `git push origin master`
+	- uploads changes to [wwwgithub.com](https://github.com/)
+	- **NB:** sometimes you may get an error, which in most cases means that you need to `pull` first
+* `git pull origin master`
+	- downloads changes from [wwwgithub.com](https://github.com/)
+* `git log`
+	- shows the history of `commit`s; here you can choose where you want to roll back, in case of troubles
 
 # From the syllabus
 
